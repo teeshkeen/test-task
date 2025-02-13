@@ -1,0 +1,26 @@
+@use './styles/normalize';
+@use './styles/mixins';
+@use './styles/header';
+@use './styles/vars';
+@use './styles/banner';
+@font-face {
+  font-family: 'Druk';
+  src: url(./fonts/Druk/DrukWideCyr-Bold.woff2);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background-color: #efefee;
+}
+
+.container {
+  font-family: 'Druk', sans-serif;
+  padding: 20px 20px 38px;
+  margin: 0 auto;
+}

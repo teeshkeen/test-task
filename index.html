@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Xpage</title>
+  <link rel="stylesheet" href="./src/styles.scss">
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header__container">
+        <div class="header__content">
+          <div class="header__logotype">
+            <img src="./src/images/logo.svg" alt="Логотип">
+          </div>
+          <nav>
+            <ul class="nav__list">
+              <li class="nav__list-item">
+                <a href="">играть</a>
+              </li>
+              <li class="nav__list-item">
+                <a href="">смотреть</a>
+              </li>
+              <li class="nav__list-item">
+                <a href="">учиться</a>
+              </li>
+              <li class="nav__list-item">
+                <a href="">мероприятия</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__content">
+          <button class="menu-button">
+            <img class="menu-button__icon" src="./src/images/menu.svg" alt="Иконка меню">
+            <span class="menu-button__text">МЕНЮ</span>
+          </button>
+          <div class="profile">
+            <div class="profile__container">
+              <span class="profile__username">ГЕННАДИЙ П.</span>
+              <img class="profile__avatar" src="./src/images/avatar.svg" alt="Аватар пользователя" class="profile__avatar">
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="banner">
+        <div class="banner__container">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./src/images/3.webp" alt="">
+                <h1 class="swiper-slide__text">Найди с кем <br> поиграть в баскет</h1>
+              </div>
+              <div class="swiper-slide">
+
+              </div>
+              <div class="swiper-slide">
+
+              </div>
+              <div class="swiper-slide">
+
+              </div>
+              <div class="swiper-slide">
+
+              </div>
+              <div class="swiper-slide"></div>
+              <div class="swiper-slide">
+
+              </div>
+              <div class="swiper-slide">
+
+              </div>
+              <div class="swiper-slide">
+
+              </div>
+            </div>
+            <div class="custom-pagination">
+              <button class="custom-pagination__button pagination-active" data-slide="0">
+                <span>ИГРАЙ</span>
+                <img src="./src/images/arrow.svg" alt="Иконка стрелочки">
+              </button>
+              <button class="custom-pagination__button" data-slide="1">
+                <span>УЧИСЬ</span>
+                <img src="./src/images/arrow.svg" alt="Иконка стрелочки">
+              </button>
+              <button class="custom-pagination__button" data-slide="2">
+                <span>СМОТРИ</span>
+                <img src="./src/images/arrow.svg" alt="Иконка стрелочки">
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="play">
+        <div class="section-container">
+        <div class="section-header">
+          <h2 class="section-header__title">ИГРАЙ</h2>
+          <a class="section-header__link" href="#">В РАЗДЕЛ</a>
+        </div>
+        <ul class="cards-list">
+          <li class="cards-list__item">
+              <img src="" alt="Картинка карточки" class="cards-list__item-image">
+              <div class="cards-list__item-typography">
+                <h3 class="cards-list__item-typography_title">Найди себе
+                  команду</h3>
+                <p class="cards-list__item-typography_paragraph">Игры на районе - это возможность найти с кем поиграть в баскетбол в выходные, или создать свою игру и пригласить других игроков присоединиться.</p>
+                <button class="card-button button">
+                  <span>Текст кнопки</span>
+                  <img src="" alt="Иконка стрелочки">
+                </button>
+              </div>
+          </li>
+          <li class="cards-list__item">
+            <img src="" alt="Картинка карточки" class="cards-list__item-image">
+            <div class="cards-list__item-typography">
+              <h3 class="cards-list__item-typography_title">Найди себе
+                команду</h3>
+              <p class="cards-list__item-typography_paragraph">Игры на районе - это возможность найти с кем поиграть в баскетбол в выходные, или создать свою игру и пригласить других игроков присоединиться.</p>
+              <button class="card-button button">
+                <span>Текст кнопки</span>
+                <img src="" alt="Иконка стрелочки">
+              </button>
+            </div>
+        </li>
+        <li class="cards-list__item">
+          <img src="" alt="Картинка карточки" class="cards-list__item-image">
+          <div class="cards-list__item-typography">
+            <h3 class="cards-list__item-typography_title">Найди себе
+              команду</h3>
+            <p class="cards-list__item-typography_paragraph">Игры на районе - это возможность найти с кем поиграть в баскетбол в выходные, или создать свою игру и пригласить других игроков присоединиться.</p>
+            <button class="card-button button">
+              <span>Текст кнопки</span>
+                <img src="" alt="Иконка стрелочки">
+            </button>
+          </div>
+        </li>
+        </ul>
+        </div>
+      </section>
+      
+      <section class="learn">
+        <div class="section-container">
+          <div class="section-header">
+            <h2 class="section-header__title">Учись</h2>
+            <a class="section-header__link" href="#">В РАЗДЕЛ</a>
+          </div>
+          <div class="learn__content">
+             <ul class="learn__cards">
+                 <li class="learn__cards-item">
+                  <div class="learn__cards-item_background"></div>
+                  <h2 class="learn__cards-item_title"></h2>
+                  <ul class="tags">
+                    <li class="tags__item">
+                      <span class="tags__item-text"></span>
+                    </li>
+                  </ul>
+                 </li>
+                 <li class="learn__cards-item">
+                  <div class="learn__cards-item_background"></div>
+                  <h2 class="learn__cards-item_title"></h2>
+                  <ul class="tags">
+                    <li class="tags__item">
+                      <span class="tags__item-text"></span>
+                    </li>
+                    <li class="tags__item">
+                      <span class="tags__item-text"></span>
+                    </li>
+                    <li class="tags__item">
+                      <span class="tags__item-text"></span>
+                    </li>
+                    <li class="tags__item">
+                      <span class="tags__item-text"></span>
+                    </li>
+                    <li class="tags__item">
+                      <span class="tags__item-text"></span>
+                    </li>
+                  </ul>
+                 </li>
+             </ul>
+             <hr>
+             <ul class="learn__threads">
+                <li class="learn_threads-item--with-image ">
+                  <img src="" alt="Карточка треда" class="learn_threads-item_image">
+                  <div class="learn__threads-item_title">
+                    <span>Текст</span>
+                    <img src="" alt="Иконка стрелочки">
+                  </div>
+                  <ul class="tags">
+                    <li class="tags__item">
+                      <span class="tags__item-text">Текст</span>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="learn_threads-item">
+                  <div class="learn__threads-item_title">
+                    <span>Текст</span>
+                    <img src="" alt="Иконка стрелочки">
+                  </div>
+                  <ul class="tags">
+                    <li class="tags__item">
+                      <span class="tags__item-text">Текст</span>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="learn_threads-item">
+                  <div class="learn__threads-item_title">
+                    <span>Текст</span>
+                    <img src="" alt="Иконка стрелочки">
+                  </div>
+                  <ul class="tags">
+                    <li class="tags__item">
+                      <span class="tags__item-text">Текст</span>
+                    </li>
+                  </ul>
+                </li>
+             </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        renderBullet: function (index, className) {
+          return '<span class="' + className + '">' + (index + 1) + "</span>";
+        },
+      },
+    });
+
+    var buttons = document.querySelectorAll('.custom-button');
+
+// Добавляем обработчик событий для каждой кнопки
+buttons.forEach(function(button) {
+  button.addEventListener('click', function() {
+    var slideIndex = parseInt(this.getAttribute('data-slide'));
+    swiper.slideTo(slideIndex); // Переход к слайду по индексу
+  });
+});
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+@mixin flex-beetwen {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin button($color) {
+    background-color: $color;
+    
+}
